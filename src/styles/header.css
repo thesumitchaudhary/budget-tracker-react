@@ -1,0 +1,17 @@
+header{
+    display: grid;
+    place-items: center;
+    height: 100px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    @media (width < 580px) {
+        font-size: 17px;
+    }
+}
+
